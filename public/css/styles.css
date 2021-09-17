@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: #7ECA9C;
+}
+#heading{
+    background-color: #1C1427;
+}
+#dictionary{
+    padding: 10px;
+    color: white;
+}
+
+.content{
+    padding-top: 10%;
+}
+.center{
+    background-color: white;
+    font-size: large;
+}
+.form{
+    padding: 5%;
+}
+#button{
+    padding-top: 15px;
+}
+
+.dictionary{
+    background-color: white;
+}
+
+.text{
+    font-weight: 900;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}

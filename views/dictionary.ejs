@@ -1,0 +1,36 @@
+<%- include('header') %>
+
+<div class="container content">
+    <div class="row dictionary">
+        <div class="col-md-4 text-center">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Meaning</h2>
+                    <hr>
+                    <p class="card-text text">   <%= meaning %>     </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Example</h2>
+                    <hr>
+                    <p class="card-text text">   <%= example %>     </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Synonyms</h2>
+                    <hr>
+                    <% synonyms.forEach(element => { %>
+                     <span class="card-text text"><%= element %>, </span>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('footer') %>  
